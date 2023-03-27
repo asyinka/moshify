@@ -1,6 +1,5 @@
+import Navigation from './sections/Navigation/';
 
+const appContainer = document.querySelector('#myApp');
 
-
-let appContainer = document.querySelector('#myApp');
-
-console.log(appContainer);
+Navigation(appContainer);
