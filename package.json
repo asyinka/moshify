@@ -2,7 +2,8 @@
   "name": "moshify",
   "version": "1.0.0",
   "description": "",
-  "main": "coll.js",
+  "source": "src/index.js",
+  "main": "dist/main.js",
   "dependencies": {
     "abortcontroller-polyfill": "^1.7.5",
     "acorn": "^8.8.2",
