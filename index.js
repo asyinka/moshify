@@ -1,4 +1,4 @@
-import Navigation from './sections/Navigation/';
+import Navigation from "./sections/Navigation";
 
 const appContainer = document.querySelector('#myApp');
 
