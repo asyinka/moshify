@@ -1,11 +1,11 @@
-import Navigation from "./sections/Navigation";
-import Hero from "./sections/Hero";
-import Pricing from "./sections/Pricing";
-import Plans from "./sections/plans";
-import Hosting from "./sections/Hosting";
-import Features from "./sections/Features";
-import Reviews from "./sections/Reviews";
-import Footer from "./sections/Footer";
+import Navigation from "./src/sections/Navigation";
+import Hero from "./src/sections/Hero";
+import Pricing from "./src/sections/Pricing";
+import Plans from "./src/sections/plans";
+import Hosting from "./src/sections/Hosting";
+import Features from "./src/sections/Features";
+import Reviews from "./src/sections/Reviews";
+import Footer from "./src/sections/Footer";
 
 const appContainer = document.querySelector('#myApp');
 
