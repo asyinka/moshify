@@ -28,9 +28,12 @@ function renderer (pageCall){
     const appContainer = document.querySelector('#myApp');
     appContainer.innerHTML = "";
 
-    if (pageCall != null){
+    if (pageCall != undefined){
         pageCall(appContainer);
     } else{
-        appContainer.innerHTML = `<div style="display: flex; justify-content: center; align-items: center; height: 100vh;">Something bad happened</div>`
+        appContainer.innerHTML = `<div style="display: flex; font-size: 5rem; justify-content: center; align-items: center; height: 100vh;">Something bad happened!!! <br> We will be back online shortly. </div>`
     }
+
 }
+
+
