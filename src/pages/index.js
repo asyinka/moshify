@@ -3,7 +3,7 @@ import Hero from "../sections/Hero";
 import Footer from "../sections/Footer";
 import Callout from "../sections/Callout";
 
-export default function AboutUs(container){
+export default function Homepage(container){
     Navigation(container);
     Hero(container);
     Callout(container);
