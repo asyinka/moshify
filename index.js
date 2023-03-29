@@ -5,6 +5,7 @@ import Plans from "./src/sections/plans";
 import Hosting from "./src/sections/Hosting";
 import Features from "./src/sections/Features";
 import Reviews from "./src/sections/Reviews";
+import Callout from "./src/sections/Callout";
 import Footer from "./src/sections/Footer";
 
 const appContainer = document.querySelector('#myApp');
@@ -16,4 +17,5 @@ Plans(appContainer);
 Hosting(appContainer);
 Features(appContainer);
 Reviews(appContainer);
+Callout(appContainer);
 Footer(appContainer);
