@@ -21,6 +21,8 @@
 // Footer(appContainer);
 
 import Homepage from "./src/pages";
+import AboutUs from "./src/pages/About-us";
+import Pricingpage from "./src/pages/Pricingpage";
 
 
 function renderer (pageCall){
@@ -36,4 +38,26 @@ function renderer (pageCall){
 
 }
 
+//Router
+
+const pathname = window.location.pathname;
+
+//this function defines the location.pathname directory
+function router() {
+    switch (pathname) {
+        case "/":
+            renderer(Homepage)
+        break;
+        case "/Pricingpage":
+            renderer(Pricingpage)
+        break;
+        case "/About-us":
+            renderer(AboutUs)
+        break;
+        default:
+            break;
+    }
+}
+
+router();
 
