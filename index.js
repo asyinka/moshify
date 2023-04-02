@@ -21,7 +21,7 @@
 // Footer(appContainer);
 
 import Homepage from "./src/pages";
-import AboutUs from "./src/pages/About-us";
+import AboutUs from "./src/pages/AboutUs";
 import Pricingpage from "./src/pages/Pricingpage";
 
 
@@ -51,7 +51,7 @@ function router() {
         case "/Pricingpage":
             renderer(Pricingpage)
         break;
-        case "/About-us":
+        case "/AboutUs":
             renderer(AboutUs)
         break;
         default:
@@ -60,4 +60,3 @@ function router() {
 }
 
 router();
-
